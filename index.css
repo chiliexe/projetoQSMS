@@ -1,0 +1,65 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul.menu {
+    width: 80%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    
+}
+ul.menu > li {
+    margin:  5px;
+    text-align: center;
+    font-size: 24px;
+    background-color: rgb(19, 141, 131);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    cursor: pointer;
+}
+ul.menu > li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* MAIN =================================================== */
+
+.card {
+    text-align: center;
+    margin: 15px;
+}
+.card img {
+    width: 300px;
+    height: 150px;
+    margin: auto 10px;
+}
+.text-card {
+    width: 90%;
+    margin: 10px auto;
+}
+.card .title {
+    margin: 5px auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+.card button {
+    width: 100px;
+    margin: 10px 5px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(19, 141, 131);
+    outline: none;
+    border:none;
+    margin-left: auto;
+    color: white;
+    font-weight: 500;
+}
+.footer{
+    text-align: center;
+}
