@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="slide/slide.css">
+    <link rel="stylesheet" href="collapse/collapse.css">
     <title> Q - S - M - S </title>
 <body>
     <div class="header">
@@ -41,54 +42,90 @@
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
         <br>
-        <!-- The dots/circles -->
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-        </div> 
         <ul class="menu">
-            <li><a href="qualidade.html">Qualidade</a></li>
-            <li><a href="seguranca.html">Segurança</a></li>
-            <li><a href="ma.html">Meio Ambiente</a></li>
-            <li><a href="saude.html">Saúde</a></li>
+            <div class="span"></div>
+            <li><a href="pages/qualidade.html">Qualidade</a></li>
+            <li><a href="pages/seguranca.html">Segurança</a></li>
+            <li><a href="pages/meioamb.html">Meio Ambiente</a></li>
+            <li><a href="pages/saude.html">Saúde</a></li>
         </ul>
         <hr>
     </div>
+        <div class="curiosidades">
+            <h2 style="text-align: center;">Curiosidades sobre o QSMS</h2>
+            <!-- qualidade -->
+            <button type="button" class="collapsible c1">Qualidade de vida no trabalho: curiosidade</button>
+            <div class="content">
+                <p>
+                    O termo qualidade de vida no trabalho ou QVT, como é, comumente, denominado em ambientes corporativos.
+                    foi na década de 70 que este conceito ganhou força, quando Louis Davis, professor da Universidade da Califórnia usou o termo qualidade de vida no trabalho (QVT) para definir o bem-estar geral, saúde e o desempenho dos colaboradores
+                </p>
+            </div>
+            <!-- seguranca--> 
+            <button type="button" class="collapsible c2">Segurança no trabalho: curiosidade</button>
+            <div class="content">
+                <p>
+                    <b>A segurança do trabalho é uma ciência </b><br>
+                    Quando se fala em segurança do trabalho não se trata apenas de um grupo de profissões voltadas ao cuidado do trabalhador, mas de uma ciência que estuda a ocorrência de acidentes do trabalho de forma a preveni-los e proteger a saúde do trabalhador, garantindo seu bem-estar. <br>
+                    Para realizar essa função, a segurança do trabalho envolve o conhecimento de áreas como medicina, engenharia, enfermagem, estatística e epidemiologia, desenvolvendo diversas tecnologias, como os equipamentos de proteção individual (EPI).
+
+
+                </p>
+            </div>
+            <!-- meio ambiente -->
+            <button type="button" class="collapsible c3">Meio Ambiente: curiosidade</button>
+            <div class="content">
+                <p>
+                    1. O corpo humano de um adulto possui até 65% de água em sua composição. Em um recém-nascido o número é ainda maior: 78%. <br><br>
+                    2. O planeta Terra também é conhecido como o Planeta Água. A justificativa para o nome deve-se ao fato de que 70,9% de sua superfície é coberta por água.<br><br>
+                    3. 12% da água doce do mundo está no Brasil. O país é privilegiado por seus aquíferos, que armazenam a água no solo.
+                </p>
+            </div>
+            <!-- saude -->
+            <button type="button" class="collapsible c4">Saúde no trabalho: curiosidade</button>
+            <div class="content">
+                <p>
+                    Estima-se que 22% dos casos de doenças mentais, em destaque, o estresse, é causado por falta de adaptação ao ambiente de trabalho,
+                    por isso foi criado o conceito de saúde no trabalho.
+                </p>
+            </div>
+        </div>
+
         <div class="main">
             <div class="card">
                 <img src="images/índice.png" alt="">
                 <div class="text-card">
-                    <p>O QSMS significa Qualidade e Sistemas Integrados (Qualidade,Segurança, Meio Ambiente e Saúde), é uma preocupação e realidade enfrentada pelas empresas, principalmente, as que possuem altos riscos...</p>
+                    <p>O QSMS significa Qualidade e Sistemas Integrados (Qualidade,Segurança, Meio Ambiente e Saúde), é uma preocupação...</p>
                 </div>
                 <button>Saiba mais</button>
             </div>
             <hr>
-            <div class="curiosidades"></div>
             <div class="card">
                 <img src="images/card-qualidade.jpg" alt="">
                 <div class="title">Qualidade</div>
-                <p class="text-card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi consequuntur omnis dolor aliquam iure labore.</p>
-                <a href=""><button>Saiba mais</button></a>
+                <p class="text-card">A qualidade de vida no trabalho está diretamente relacionada a um conjunto de ações que uma empresa adota para melhorar...</p>
+                <a href="pages/qualidade.html"><button>Saiba mais</button></a>
             </div>
+            <hr>
             <div class="card">
                 <img src="images/card-seguranca.jpg" alt="">
                 <div class="title">Segurança</div>
-                <p class="text-card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi consequuntur omnis dolor aliquam iure labore.</p>
-                <a href=""><button>Saiba mais</button></a>
+                <p class="text-card">Segurança do trabalho pode ser entendida como os conjuntos de medidas que são adotadas visando minimizar...</p>
+                <a href="pages/seguranca.html"><button>Saiba mais</button></a>
             </div>
+            <hr>
             <div class="card">
                 <img src="images/card-ma.jpg" alt="">
                 <div class="title">Meio Ambiente</div>
-                <p class="text-card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi consequuntur omnis dolor aliquam iure labore.</p>
-                <a href=""><button>Saiba mais</button></a>
+                <p class="text-card">O que é o Meio Ambiente: O meio ambiente envolve todas as coisas com vida e sem vida que existem na Terra...</p>
+                <a href="pages/meioamb.html"><button>Saiba mais</button></a>
             </div>
+            <hr>
             <div class="card">
                 <img src="images/card-saude.jpg" alt="">
                 <div class="title">Saúde</div>
-                <p class="text-card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi consequuntur omnis dolor aliquam iure labore.</p>
-                <a href=""><button>Saiba mais</button></a>
+                <p class="text-card">A saúde ocupacional é um conceito atual, prioritário e transversal que tem por finalidade...</p>
+                <a href="pages/saude.html"><button>Saiba mais</button></a>
             </div>
             <hr>
         </div>
@@ -96,5 +133,6 @@
         <p>Todos os direitos reservados - Senac - Turma 05/2019</p>
     </div>
     <script src="slide/slide.js"></script>
+    <script src="collapse/collapse.js"></script>
 </body>
 </html>

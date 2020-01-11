@@ -3,6 +3,11 @@
     margin: 0px;
 }
 
+hr {
+    width: 50%;
+    margin: auto;
+}
+
 ul.menu {
     width: 80%;
     list-style: none;
@@ -29,6 +34,9 @@ ul.menu > li a{
 
 /* MAIN =================================================== */
 
+.curiosidades{
+    margin-top: 10px;
+}
 .card {
     text-align: center;
     margin: 15px;
@@ -37,6 +45,9 @@ ul.menu > li a{
     width: 300px;
     height: 150px;
     margin: auto 10px;
+}
+button{
+    cursor: pointer;
 }
 .text-card {
     width: 90%;
@@ -63,3 +74,32 @@ ul.menu > li a{
 .footer{
     text-align: center;
 }
+
+@media screen and (min-width: 980px) {
+    ul.menu {
+        width: 80%;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        margin-top: 35px;
+        margin-bottom: 20px;
+        
+    }
+    ul.menu > li {
+        margin:  5px 10px;
+        text-align: center;
+        font-size: 20px;
+        background-color: rgb(19, 141, 131);
+        border-radius: 10px;
+        cursor: pointer;
+        padding: 10px;
+    }
+    ul.menu > li a{
+        text-decoration: none;
+        color: white;
+    }
+    div.span {
+        margin-right: 25%;
+    }
+ }

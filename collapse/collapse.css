@@ -1,0 +1,67 @@
+ /* Style the button that is used to open and close the collapsible content */
+ .collapsible {
+    background-color: #eee;
+    color: rgb(7, 7, 7);
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    margin-left: 25%;
+  }
+  .c1{
+    background-color: rgb(221, 44, 44);
+  }
+  .c2{
+    background-color: rgb(44, 91, 221);
+  }
+  .c3{
+    background-color: rgb(54, 218, 95);
+  }
+  .c4{
+    background-color: rgb(221, 150, 44);
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    font-weight: bold;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 10 18px;
+    display: none;
+    overflow: hidden;
+    background-color: rgb(96, 156, 151);
+    text-align: center;
+    width: 50%;
+    margin: auto;
+  } 
+
+  .collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+  @media screen and (max-width: 500px){
+    .collapsible {
+      color: rgb(7, 7, 7);
+      cursor: pointer;
+      padding: 18px;
+      width: 50%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      margin-left: 25%;
+    }
+  }
